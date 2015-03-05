@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+font-size: 10em;
+}
+
+span {
+    display: inline-block;
+    padding: 30px;
+    line-height: 100%;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10em;
+}
+
+.button {
+    padding: 10px 15px;
+    background: black;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;    
+}
+.button:hover {
+    background: white;
+    color: black;
+}
